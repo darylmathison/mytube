@@ -7,8 +7,6 @@ Categorize and custom display of Youtube subscriptions through authorized google
 * Customizable categories
 * Mobile Access
 
-* Etherpad: https://etherpad.rax.io/p/mytube
-
 ## Docs
 * https://developers.google.com/youtube/v3/docs/
 * https://developers.google.com/youtube/registering_an_application
@@ -50,7 +48,7 @@ virtualenv mytube
 cd mytube
 source bin/activate
 pip install --upgrade google-api-python-client
-pip install httplib2
+pip install httplib2 pymongo tornado
 ```
 
 ## Usage
